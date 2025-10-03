@@ -1,5 +1,5 @@
 const express = require('express')
-const productoRoutes = require('./routes/productoRoutes')
+const libroRoutes = require('./routes/libroRoutes')
 
 const app = express ()
 const PORT = process.env.PORT || 3000  //Puerto de la App
@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000  //Puerto de la App
 app.use(express.json())
 
 //Rutas
-app.use('/api/productos', productoRoutes)
+app.use('/api/libros', libroRoutes)
 
 //Iniciar el servidor
 app.listen(PORT, () => {

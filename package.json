@@ -1,5 +1,5 @@
 {
-  "name": "electroperu",
+  "name": "biblioteca",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,8 +12,9 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "mysql2": "^3.15.1",
-    "nodemon": "^3.1.10"
+    "mysql2": "^3.15.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }

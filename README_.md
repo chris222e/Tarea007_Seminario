@@ -1,0 +1,1 @@
+Instrucciones de uso:\n1) Importar archivo biblioteca.sql en MySQL Workbench.\n2) Configurar .env con credenciales.\n3) npm install\n4) npm start\nRutas: GET /api/libros, POST /api/libros, GET /api/libros/:id, PUT /api/libros/:id, DELETE /api/libros/:id\n
